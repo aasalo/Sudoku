@@ -10,6 +10,9 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
+		if(candidateSolution.length() != 81){
+			return -1;
+		}
 		if(!checkAllRows(candidateSolution)){
 			return -3;
 		}
