@@ -6,9 +6,10 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
+	
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		String firstRow = "417369825";
 	}
 
 }
