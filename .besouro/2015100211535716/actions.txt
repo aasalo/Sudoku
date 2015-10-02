@@ -123,3 +123,7 @@ CompilationAction 1443781908107 TestSudokuVerifier.java
 CompilationAction 1443781908107 TestSudokuVerifier.java
 CompilationAction 1443781908108 TestSudokuVerifier.java
 EditAction 1443781941219 SudokuVerifier.java 771 3 6 0
+RefactoringAction 1443782012020 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443782015036 TestSudokuVerifier.java RENAME test=>void testWith FIELD
+RefactoringAction 1443782016553 TestSudokuVerifier.java RENAME testWith=>void testWith() METHOD
+EditAction 1443782019817 TestSudokuVerifier.java 1229 5 12 4
