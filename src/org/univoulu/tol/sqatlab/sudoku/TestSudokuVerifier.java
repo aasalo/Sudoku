@@ -17,7 +17,7 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testSecondRowWithFirstRow() {
-		fail("");
+		fail("qwerw");
 	}
 
 }
