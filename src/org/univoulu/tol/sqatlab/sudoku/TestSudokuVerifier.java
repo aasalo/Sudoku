@@ -8,13 +8,11 @@ import org.junit.runners.Parameterized.Parameter;
 public class TestSudokuVerifier {
 
 	SudokuVerifier verifier = new SudokuVerifier();
-	
-	@Parameter
-	
+	String correctRow = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	
 	@Test
 	public void testFirstRow() {
-		verifier.verify(candidateSolution);
+		verifier.verify(correctRow);
 	}
 
 

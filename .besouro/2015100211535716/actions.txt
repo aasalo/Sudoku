@@ -23,3 +23,10 @@ RefactoringAction 1443777554832 TestSudokuVerifier.java ADD SudokuVerifier verif
 RefactoringAction 1443777586683 TestSudokuVerifier.java RENAME testFirstRow()=>void testFirstRow(String) METHOD
 RefactoringAction 1443777590944 TestSudokuVerifier.java RENAME testFirstRow(String)=>void testFirstRow() METHOD
 EditAction 1443777600168 TestSudokuVerifier.java 356 1 1 0
+CompilationAction 1443777600312 TestSudokuVerifier.java
+CompilationAction 1443777600312 TestSudokuVerifier.java
+RefactoringAction 1443777724414 SudokuVerifier.java ADD String correctRow FIELD
+RefactoringAction 1443777834962 SudokuVerifier.java REMOVE correctRow FIELD
+RefactoringAction 1443777836283 TestSudokuVerifier.java ADD String correctRow FIELD
+CompilationAction 1443777847840 TestSudokuVerifier.java
+EditAction 1443778037058 SudokuVerifier.java 156 1 1 0
