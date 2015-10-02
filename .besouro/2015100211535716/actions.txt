@@ -44,3 +44,4 @@ CompilationAction 1443778960086 TestSudokuVerifier.java
 RefactoringAction 1443779253320 TestSudokuVerifier.java REMOVE incorrectRow FIELD
 RefactoringAction 1443779253321 TestSudokuVerifier.java REMOVE correctRow FIELD
 EditAction 1443779494005 SudokuVerifier.java 153 1 1 0
+EditAction 1443779494112 TestSudokuVerifier.java 475 1 3 1
