@@ -33,8 +33,8 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testStringLength(){
-		String defaultRow = "123423456789123456789123456789123456789123456789123456789123456789123456789999999999";
-		int result = verifier.verify(defaultRow);
+		String TooLongRow = "123423456789123456789123456789123456789123456789123456789123456789123456789999999999";
+		int result = verifier.verify(TooLongRow);
 		assertEquals(-1, result);
 	}
 	
