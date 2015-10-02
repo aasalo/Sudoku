@@ -37,5 +37,8 @@ public class TestSudokuVerifier {
 		int result = verifier.verify(defaultRow);
 		assertEquals(-1, result);
 	}
+	
+	@Test
+	public void 
 
 }
