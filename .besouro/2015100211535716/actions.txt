@@ -57,3 +57,8 @@ RefactoringAction 1443779810491 SudokuVerifier.java ADD import com.sun.xml.inter
 RefactoringAction 1443779879314 SudokuVerifier.java ADD import java.util.Arrays IMPORT
 RefactoringAction 1443779941480 SudokuVerifier.java ADD char FIELD
 EditAction 1443780010829 SudokuVerifier.java 464 1 3 0
+UnitTestCaseAction 1443780011173 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443780011173 TestSudokuVerifier OK
+RefactoringAction 1443780028510 TestSudokuVerifier.java ADD void testFirstRowWithSecondRow FIELD
+RefactoringAction 1443780030022 TestSudokuVerifier.java RENAME testFirstRowWithSecondRow=>void testFirstRowWithSecondRow() METHOD
+EditAction 1443780103862 TestSudokuVerifier.java 706 2 6 2

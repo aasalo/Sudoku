@@ -16,5 +16,11 @@ public class TestSudokuVerifier {
 		assertEquals(-3, result);
 		
 	}
+	
+	@public void testFirstRowWithSecondRow(){
+		String secondRow = "123456789222222222333333333444444444555555555666666666777777777888888888999999999";
+		int result = verifier.verify(secondRow);
+		assertEquals(-3, result);
+	}
 
 }
