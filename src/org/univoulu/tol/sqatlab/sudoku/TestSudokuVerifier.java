@@ -39,8 +39,10 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testWith(){
-		
+	public void testWithCorrectRow(){
+		String correctRow = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		int result = verifier.verify(correctRow);
+		assertEquals(0, result);
 	}
 
 }

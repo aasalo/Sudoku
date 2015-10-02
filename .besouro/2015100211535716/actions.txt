@@ -128,3 +128,5 @@ RefactoringAction 1443782015036 TestSudokuVerifier.java RENAME test=>void testWi
 RefactoringAction 1443782016553 TestSudokuVerifier.java RENAME testWith=>void testWith() METHOD
 EditAction 1443782019817 TestSudokuVerifier.java 1229 5 12 4
 EditAction 1443782054088 TestSudokuVerifier.java 1229 5 12 4
+RefactoringAction 1443782061818 TestSudokuVerifier.java RENAME testWith()=>void testWithCorrectRow() METHOD
+EditAction 1443782103400 TestSudokuVerifier.java 1416 5 15 5
