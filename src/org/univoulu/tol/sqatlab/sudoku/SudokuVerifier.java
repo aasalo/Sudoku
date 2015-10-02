@@ -10,12 +10,14 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
-		char[] firstRow = candidateSolution.substring(0, 8).toCharArray();
+		char[] firstRow = candidateSolution.substring(0, 9).toCharArray();
 		Arrays.sort(firstRow);
 		
 		if(!Arrays.equals(firstRow, validRow)){
+
 			return -3;
 		}else{
+			char[] secondRow = candidateSolution.substring(9, 18).toCharArray();
 			return 0;
 		}
 	}
