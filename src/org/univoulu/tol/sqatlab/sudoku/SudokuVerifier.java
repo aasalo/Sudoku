@@ -13,12 +13,20 @@ public class SudokuVerifier {
 		char[] firstRow = candidateSolution.substring(0, 9).toCharArray();
 		Arrays.sort(firstRow);
 		
-		if(!Arrays.equals(firstRow, validRow)){
-
+		char[] secondRow = candidateSolution.substring(9, 18).toCharArray();
+		Arrays.sort(secondRow);
+		
+		if(checkIfRowContainsDuplicates(firstRow)){
 			return -3;
-		}else{
-			char[] secondRow = candidateSolution.substring(9, 18).toCharArray();
+		}else if (!Arrays.equals(firstRow, secondRow)){
+			return -3;
+			}
+		else{
 			return 0;
 		}
+	}
+
+	private boolean checkIfRowContainsDuplicates(char[] firstRow) {
+		return !Arrays.equals(firstRow, validRow);
 	}
 }
