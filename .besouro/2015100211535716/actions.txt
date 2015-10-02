@@ -88,3 +88,6 @@ UnitTestSessionAction 1443780792916 TestSudokuVerifier OK
 RefactoringAction 1443780836394 TestSudokuVerifier.java ADD void testLastRow() METHOD
 RefactoringAction 1443780840908 TestSudokuVerifier.java RENAME testLastRow()=>void testLastRowForDuplicates() METHOD
 EditAction 1443780872834 TestSudokuVerifier.java 950 3 9 3
+UnitTestCaseAction 1443780874770 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443780874770 TestSudokuVerifier FAIL
+EditAction 1443781069752 SudokuVerifier.java 762 2 7 0

@@ -16,15 +16,14 @@ public class SudokuVerifier {
 		char[] secondRow = candidateSolution.substring(9, 18).toCharArray();
 		Arrays.sort(secondRow);
 		
-		if(checkIfRowContainsDuplicates(firstRow)){
-			return -3;
-		}else if (checkIfRowContainsDuplicates(secondRow)){
-			return -3;
+		for(int i = 0; i <= 72; i = i+9){
+			if(checkIfRowContainsDuplicates(candidateSolution.substring(i, i+9).toCharArray())){
+
+				return -3;
 			}
-		else{
-			return 0;
 		}
 	}
+	
 
 	private boolean checkIfRowContainsDuplicates(char[] row) {
 		char[] validRow = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
