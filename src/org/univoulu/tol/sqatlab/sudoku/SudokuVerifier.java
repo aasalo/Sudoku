@@ -10,7 +10,7 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
-		if(checkAllRows()){
+		if(checkAllRows(candidateSolution)){
 			return -3;
 		}
 		else return 0;
@@ -22,10 +22,9 @@ public class SudokuVerifier {
 		return !Arrays.equals(row, validRow);
 	}
 	
-	private boolean checkAllRows() {
+	private boolean checkAllRows(String candidateSolution) {
 		for(int i = 0; i <= 72; i = i+9){
 		if(checkIfRowContainsDuplicates(candidateSolution.substring(i, i+9).toCharArray())){
-
 			return false;
 		}
 	}

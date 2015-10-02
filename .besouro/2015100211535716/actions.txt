@@ -102,3 +102,10 @@ RefactoringAction 1443781269506 SudokuVerifier.java REMOVE checkForRows FIELD
 RefactoringAction 1443781272518 SudokuVerifier.java ADD boolean checkAllRows FIELD
 RefactoringAction 1443781274531 SudokuVerifier.java RENAME checkAllRows=>boolean checkAllRows() METHOD
 EditAction 1443781342934 SudokuVerifier.java 673 3 5 0
+CompilationAction 1443781343230 SudokuVerifier.java
+RefactoringAction 1443781392296 SudokuVerifier.java RENAME checkAllRows()=>boolean checkAllRows(String) METHOD
+CompilationAction 1443781395101 SudokuVerifier.java
+RefactoringAction 1443781423698 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443781426214 TestSudokuVerifier.java RENAME test=>void testStringLength FIELD
+RefactoringAction 1443781429244 TestSudokuVerifier.java RENAME testStringLength=>void testStringLength() METHOD
+EditAction 1443781505620 TestSudokuVerifier.java 1184 4 12 4

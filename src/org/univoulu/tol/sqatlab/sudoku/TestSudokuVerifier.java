@@ -30,5 +30,12 @@ public class TestSudokuVerifier {
 		int result = verifier.verify(secondRow);
 		assertEquals(-3, result);
 	}
+	
+	@Test
+	public void testStringLength(){
+		String defaultRow = "123423456789123456789123456789123456789123456789123456789123456789123456789999999999";
+		int result = verifier.verify(defaultRow);
+		assertEquals(-1, result);
+	}
 
 }
