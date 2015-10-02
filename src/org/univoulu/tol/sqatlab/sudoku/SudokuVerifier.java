@@ -5,8 +5,6 @@ import java.util.Arrays;
 import com.sun.xml.internal.ws.util.StringUtils;
 
 public class SudokuVerifier {
- 
-	
 	
 	public int verify(String candidateSolution) {
 		
