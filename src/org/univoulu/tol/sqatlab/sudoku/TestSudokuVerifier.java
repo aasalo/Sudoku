@@ -13,7 +13,7 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testVerifier() {
-		String firstRow = exampleRow.substring(0, 8);
+		String firstRow = correctRow.substring(0, 8);
 		verifier.verify(firstRow);
 		
 	}

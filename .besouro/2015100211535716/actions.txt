@@ -39,3 +39,8 @@ CompilationAction 1443778792404 TestSudokuVerifier.java
 RefactoringAction 1443778917017 TestSudokuVerifier.java RENAME exampleRow=>String correctRow FIELD
 RefactoringAction 1443778921531 TestSudokuVerifier.java ADD String incorrectRow FIELD
 EditAction 1443778938220 TestSudokuVerifier.java 595 1 2 0
+CompilationAction 1443778938500 TestSudokuVerifier.java
+CompilationAction 1443778960086 TestSudokuVerifier.java
+RefactoringAction 1443779253320 TestSudokuVerifier.java REMOVE incorrectRow FIELD
+RefactoringAction 1443779253321 TestSudokuVerifier.java REMOVE correctRow FIELD
+EditAction 1443779494005 SudokuVerifier.java 153 1 1 0
