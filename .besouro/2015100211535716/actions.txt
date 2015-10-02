@@ -83,3 +83,8 @@ RefactoringAction 1443780747903 SudokuVerifier.java ADD boolean checkIfRowContai
 EditAction 1443780747905 SudokuVerifier.java 768 2 6 0
 RefactoringAction 1443780758784 SudokuVerifier.java REMOVE validRow FIELD
 EditAction 1443780790554 SudokuVerifier.java 770 2 7 0
+UnitTestCaseAction 1443780792916 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443780792916 TestSudokuVerifier OK
+RefactoringAction 1443780836394 TestSudokuVerifier.java ADD void testLastRow() METHOD
+RefactoringAction 1443780840908 TestSudokuVerifier.java RENAME testLastRow()=>void testLastRowForDuplicates() METHOD
+EditAction 1443780872834 TestSudokuVerifier.java 950 3 9 3
