@@ -93,3 +93,12 @@ UnitTestSessionAction 1443780874770 TestSudokuVerifier FAIL
 EditAction 1443781069752 SudokuVerifier.java 762 2 7 0
 CompilationAction 1443781069875 SudokuVerifier.java
 EditAction 1443781121926 SudokuVerifier.java 775 2 8 0
+UnitTestCaseAction 1443781124013 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443781124013 TestSudokuVerifier OK
+RefactoringAction 1443781217594 SudokuVerifier.java ADD void checkAllRows(String) METHOD
+RefactoringAction 1443781249202 SudokuVerifier.java REMOVE checkAllRows(String) METHOD
+RefactoringAction 1443781264992 SudokuVerifier.java ADD int checkForRows FIELD
+RefactoringAction 1443781269506 SudokuVerifier.java REMOVE checkForRows FIELD
+RefactoringAction 1443781272518 SudokuVerifier.java ADD boolean checkAllRows FIELD
+RefactoringAction 1443781274531 SudokuVerifier.java RENAME checkAllRows=>boolean checkAllRows() METHOD
+EditAction 1443781342934 SudokuVerifier.java 673 3 5 0
