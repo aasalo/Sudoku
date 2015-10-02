@@ -7,17 +7,15 @@ import org.junit.runners.Parameterized.Parameter;
 
 public class TestSudokuVerifier {
 
+	SudokuVerifier verifier = new SudokuVerifier();
+	
 	@Parameter
-	String firstRow = "417369825";
+	
 	
 	@Test
 	public void testFirstRow() {
-		assertEquals(firstRow, "417369825");
+		verifier.verify(candidateSolution);
 	}
-	
-	@Test
-	public void testSecondRowWithFirstRow() {
-		fail("qwerw");
-	}
+
 
 }
