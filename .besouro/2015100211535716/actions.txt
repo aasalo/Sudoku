@@ -62,3 +62,5 @@ UnitTestSessionAction 1443780011173 TestSudokuVerifier OK
 RefactoringAction 1443780028510 TestSudokuVerifier.java ADD void testFirstRowWithSecondRow FIELD
 RefactoringAction 1443780030022 TestSudokuVerifier.java RENAME testFirstRowWithSecondRow=>void testFirstRowWithSecondRow() METHOD
 EditAction 1443780103862 TestSudokuVerifier.java 706 2 6 2
+CompilationAction 1443780103991 TestSudokuVerifier.java
+EditAction 1443780110159 TestSudokuVerifier.java 713 2 6 2
