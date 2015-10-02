@@ -64,3 +64,6 @@ RefactoringAction 1443780030022 TestSudokuVerifier.java RENAME testFirstRowWithS
 EditAction 1443780103862 TestSudokuVerifier.java 706 2 6 2
 CompilationAction 1443780103991 TestSudokuVerifier.java
 EditAction 1443780110159 TestSudokuVerifier.java 713 2 6 2
+UnitTestCaseAction 1443780111821 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443780111822 TestSudokuVerifier OK
+EditAction 1443780266564 SudokuVerifier.java 472 1 3 0

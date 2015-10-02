@@ -15,6 +15,8 @@ public class SudokuVerifier {
 		
 		if(!Arrays.equals(firstRow, validRow)){
 			return -3;
-		}else return 0;
+		}else{
+			return 0;
+		}
 	}
 }
