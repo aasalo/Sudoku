@@ -130,3 +130,7 @@ EditAction 1443782019817 TestSudokuVerifier.java 1229 5 12 4
 EditAction 1443782054088 TestSudokuVerifier.java 1229 5 12 4
 RefactoringAction 1443782061818 TestSudokuVerifier.java RENAME testWith()=>void testWithCorrectRow() METHOD
 EditAction 1443782103400 TestSudokuVerifier.java 1416 5 15 5
+UnitTestCaseAction 1443782105455 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443782105455 TestSudokuVerifier FAIL
+RefactoringAction 1443782121016 SudokuVerifier.java REMOVE import com.sun.xml.internal.ws.util.StringUtils IMPORT
+RefactoringAction 1443782442231 TestSudokuVerifier.java REMOVE import org.junit.runners.Parameterized.Parameter IMPORT
