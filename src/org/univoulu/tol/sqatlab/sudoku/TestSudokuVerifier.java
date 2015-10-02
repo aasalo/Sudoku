@@ -8,14 +8,14 @@ import org.junit.runners.Parameterized.Parameter;
 public class TestSudokuVerifier {
 
 	SudokuVerifier verifier = new SudokuVerifier();
-	String exampleRow = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+	String correctRow = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+	String incorrectRow = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	
 	@Test
 	public void testVerifier() {
 		String firstRow = exampleRow.substring(0, 8);
-		verifier.verify(exampleRow);
-
-		assertEquals(exampleRow[1], "4");
+		verifier.verify(firstRow);
+		
 	}
 
 }
