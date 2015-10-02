@@ -6,7 +6,7 @@ import com.sun.xml.internal.ws.util.StringUtils;
 
 public class SudokuVerifier {
  
-	char[] validRow = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+	
 	
 	public int verify(String candidateSolution) {
 		
@@ -18,7 +18,7 @@ public class SudokuVerifier {
 		
 		if(checkIfRowContainsDuplicates(firstRow)){
 			return -3;
-		}else if (!Arrays.equals(firstRow, secondRow)){
+		}else if (checkIfRowContainsDuplicates(secondRow)){
 			return -3;
 			}
 		else{
@@ -26,7 +26,9 @@ public class SudokuVerifier {
 		}
 	}
 
-	private boolean checkIfRowContainsDuplicates(char[] firstRow) {
-		return !Arrays.equals(firstRow, validRow);
+	private boolean checkIfRowContainsDuplicates(char[] row) {
+		char[] validRow = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+		
+		return !Arrays.equals(row, validRow);
 	}
 }

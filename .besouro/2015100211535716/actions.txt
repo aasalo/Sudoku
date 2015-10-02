@@ -81,3 +81,5 @@ UnitTestCaseAction 1443780667341 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443780667342 TestSudokuVerifier OK
 RefactoringAction 1443780747903 SudokuVerifier.java ADD boolean checkIfRowContainsDuplicates(char METHOD
 EditAction 1443780747905 SudokuVerifier.java 768 2 6 0
+RefactoringAction 1443780758784 SudokuVerifier.java REMOVE validRow FIELD
+EditAction 1443780790554 SudokuVerifier.java 770 2 7 0
