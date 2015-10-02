@@ -110,3 +110,6 @@ RefactoringAction 1443781426214 TestSudokuVerifier.java RENAME test=>void testSt
 RefactoringAction 1443781429244 TestSudokuVerifier.java RENAME testStringLength=>void testStringLength() METHOD
 EditAction 1443781505620 TestSudokuVerifier.java 1184 4 12 4
 EditAction 1443781508962 SudokuVerifier.java 715 3 5 0
+UnitTestCaseAction 1443781509349 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443781509349 TestSudokuVerifier FAIL
+EditAction 1443781555700 SudokuVerifier.java 716 3 5 0

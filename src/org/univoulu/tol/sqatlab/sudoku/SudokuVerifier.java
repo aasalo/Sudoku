@@ -10,7 +10,7 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
-		if(checkAllRows(candidateSolution)){
+		if(!checkAllRows(candidateSolution)){
 			return -3;
 		}
 		else return 0;
